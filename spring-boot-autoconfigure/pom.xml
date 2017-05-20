@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	  http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>spring-boot-autoconfigure</artifactId>
+  <packaging>jar</packaging>
+  <parent>
+		<groupId>com.github.zern-king</groupId>
+		<artifactId>spring-boot-parent</artifactId>
+ 		<version>0.0.1</version>
+ 		<relativePath>../spring-boot-parent</relativePath>
+  </parent>
+  <name>spring-boot-autofigure Extended</name>
+  <description>Extended spring-boot-autofigure. other lib autofigure</description>
+
+  <url>https://github.com/zern-king/spring-boot/spring-boot-autoconfigur</url>
+  <scm>
+		<url>https://github.com/zern-king/spring-boot/spring-boot-autoconfigure</url>
+		<connection>scm:git:https://github.com/zern-king/spring-boot.git</connection>
+  </scm>
+  <dependencies>
+  	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot</artifactId>
+	</dependency>
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>fastjson</artifactId>
+		<optional>true</optional>
+	</dependency>
+	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<optional>true</optional>
+	</dependency>
+  </dependencies>
+</project>
