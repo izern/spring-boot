@@ -1,4 +1,4 @@
-package cn.zern.spring.boot.autoconfigure.druid;
+package cn.izern.spring.boot.autoconfigure.druid;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;

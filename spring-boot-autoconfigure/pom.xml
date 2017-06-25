@@ -6,7 +6,7 @@
   <artifactId>spring-boot-autoconfigure</artifactId>
   <packaging>jar</packaging>
   <parent>
-		<groupId>com.github.zern-king</groupId>
+		<groupId>cn.izern</groupId>
 		<artifactId>spring-boot-parent</artifactId>
  		<version>0.0.1</version>
  		<relativePath>../spring-boot-parent</relativePath>
@@ -14,10 +14,10 @@
   <name>spring-boot-autofigure Extended</name>
   <description>Extended spring-boot-autofigure. other lib autofigure</description>
 
-  <url>https://github.com/zern-king/spring-boot/spring-boot-autoconfigur</url>
+  <url>https://github.com/izern/spring-boot</url>
   <scm>
-		<url>https://github.com/zern-king/spring-boot/spring-boot-autoconfigure</url>
-		<connection>scm:git:https://github.com/zern-king/spring-boot.git</connection>
+		<url>https://github.com/izern/spring-boot</url>
+		<connection>scm:git:https://github.com/izern/spring-boot.git</connection>
   </scm>
   <dependencies>
   	<dependency>

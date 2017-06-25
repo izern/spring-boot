@@ -1,4 +1,4 @@
-package cn.zern.spring.boot.autoconfigure.druid;
+package cn.izern.spring.boot.autoconfigure.druid;
 
 import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
 import org.aopalliance.aop.Advice;

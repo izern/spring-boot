@@ -1,4 +1,4 @@
-package cn.zern.spring.boot.autoconfigure.fastjson;
+package cn.izern.spring.boot.autoconfigure.fastjson;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   	<modelVersion>4.0.0</modelVersion>
-  	<groupId>com.github.zern-king</groupId>
+  	<groupId>cn.izern</groupId>
   	<artifactId>spring-boot-parent</artifactId>
   	<version>0.0.1</version>
   	<packaging>pom</packaging>
-  	<url>https://github.com/zern-king/spring-boot/spring-boot-parent</url>
+  	<url>https://github.com/izern/spring-boot</url>
   	<inceptionYear>2017</inceptionYear>
   	<description>Extended spring-boot.</description>
   	<scm>
-		<url>https://github.com/zern-king/spring-boot/spring-boot-parent</url>
-		<connection>scm:git:https://github.com/zern-king/spring-boot.git</connection>
+		<url>https://github.com/izern/spring-boot</url>
+		<connection>scm:https://github.com/izern/spring-boot.git</connection>
   	</scm>
   	<developers>
         <developer>
@@ -61,14 +61,19 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<!-- <build>
+	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build>
 	<profiles>
 		<profile>
 			<id>release</id>
@@ -130,4 +135,5 @@
 			</distributionManagement>
 		</profile>
 	</profiles>
+	<name>spring-boot-parent</name>
 </project>

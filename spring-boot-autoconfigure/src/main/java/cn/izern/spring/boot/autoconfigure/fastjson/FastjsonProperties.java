@@ -1,4 +1,4 @@
-package cn.zern.spring.boot.autoconfigure.fastjson;
+package cn.izern.spring.boot.autoconfigure.fastjson;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
