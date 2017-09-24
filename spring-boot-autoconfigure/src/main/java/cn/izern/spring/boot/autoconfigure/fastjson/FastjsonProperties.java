@@ -23,7 +23,7 @@ public class FastjsonProperties{
 	 * 设置默认属性
 	 */
 	public FastjsonProperties() {
-		this.dateFormat  = "yyyy-MM-dd hh:mm:ss";
+		this.dateFormat  = "yyyy-MM-dd HH:mm:ss";
 		this.feature = new Feature[0];
 		this.serializerFeatures = new SerializerFeature[0];
 	}
