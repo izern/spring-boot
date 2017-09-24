@@ -1,0 +1,4 @@
+# auto configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.izern.spring.boot.autoconfigure.druid.DruidDataSourcePropertiesAutoConfigure,\
+cn.izern.spring.boot.autoconfigure.fastjson.FastjsonAutoConfiguration
