@@ -1,0 +1,9 @@
+spring:
+  fastjson: 
+    dateFormat: yyyy-MM-dd HH:mm:ss
+    feature:
+      - AllowComment
+      - AllowSingleQuotes
+    serializerFeatures:
+      - WriteNullListAsEmpty
+      - WriteNullNumberAsZero
